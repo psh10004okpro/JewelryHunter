@@ -7,3 +7,6 @@ JewelryHunter/JewelryHunter.sln
 JewelryHunter/obj
 JewelryHunter/Logs
 JewelryHunter/Library
+JewelryHunter/Temp/
+JewelryHunter/Assembly-CSharp-Editor.csproj
+JewelryHunter/Assembly-CSharp-firstpass.csproj
