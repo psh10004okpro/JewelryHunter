@@ -11,10 +11,11 @@
       "hash": "e110809469b33d3ccc355a6c87a99d32e054c7be"
     },
     "com.google.external-dependency-manager": {
-      "version": "file:C:/Users/Suhyun/Downloads/com.google.external-dependency-manager-1.2.183/package",
+      "version": "https://github.com/googlesamples/unity-jar-resolver.git?path=upm",
       "depth": 0,
-      "source": "local",
-      "dependencies": {}
+      "source": "git",
+      "dependencies": {},
+      "hash": "523887a52805e74b7acd1ba02bd0be183539e371"
     },
     "com.unity.2d.animation": {
       "version": "9.1.3",

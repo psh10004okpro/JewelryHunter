@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using Datadog.Unity;
+//using Datadog.Unity;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI; // 씬을 변경할 때 필요
@@ -26,7 +26,7 @@ public class ChangeScene : MonoBehaviour
     // 씬 불러오기
     public void Load()
     {
-        DatadogSdk.Instance.SetTrackingConsent(TrackingConsent.Granted);
+        //DatadogSdk.Instance.SetTrackingConsent(TrackingConsent.Granted);
         SceneManager.LoadScene(sceneName);
     }
 }
